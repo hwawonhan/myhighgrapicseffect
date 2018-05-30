@@ -1,4 +1,4 @@
-﻿Log file open, 05/30/18 15:57:17
+﻿Log file open, 05/30/18 16:02:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Landscape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(469189855) SRandInit(469189855).
+LogInit: Display: RandInit(1526073337) SRandInit(1526073337).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.163566
+LogStats: Stats thread started at 0.164017
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -194,159 +194,1231 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.30-06.57.18:504][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.30-06.57.18:504][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.30-06.57.18:517][  0]LogInit: Computer: DESKTOP-0TQE0N7
-[2018.05.30-06.57.18:517][  0]LogInit: User: C22116
-[2018.05.30-06.57.18:517][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.30-06.57.18:517][  0]LogInit: High frequency timer resolution =3.515624 MHz
-[2018.05.30-06.57.18:517][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.30-06.57.18:517][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.30-06.57.18:517][  0]LogMemory: Process Physical Memory: 272.64 MB used, 272.64 MB peak
-[2018.05.30-06.57.18:517][  0]LogMemory: Process Virtual Memory: 272.03 MB used, 272.03 MB peak
-[2018.05.30-06.57.18:517][  0]LogMemory: Physical Memory: 4711.10 MB used,  11552.11 MB free, 16263.21 MB total
-[2018.05.30-06.57.18:517][  0]LogMemory: Virtual Memory: 4780.73 MB used,  11552.11 MB free, 134217728.00 MB total
-[2018.05.30-06.57.18:637][  0]LogInit: Overriding language with editor language configuration option (ko).
-[2018.05.30-06.57.18:637][  0]LogInit: Overriding locale with editor locale configuration option (ko).
-[2018.05.30-06.57.18:770][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.30-06.57.18:965][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.30-06.57.19:004][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.05.30-06.57.19:004][  0]LogD3D11RHI:       8115/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.30-06.57.19:012][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.05.30-06.57.19:013][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.05.30-06.57.19:014][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.30-06.57.19:014][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.30-06.57.19:014][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.30-06.57.19:018][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.30-06.57.19:018][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.30-06.57.19:018][  0]LogWindows: EnumDisplayDevices:
-[2018.05.30-06.57.19:018][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.05.30-06.57.19:018][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.05.30-06.57.19:019][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.05.30-06.57.19:019][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.05.30-06.57.19:019][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.30-06.57.19:019][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.30-06.57.19:019][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.30-06.57.19:019][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.30-06.57.19:019][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.05.30-06.57.19:019][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.30-06.57.19:019][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.30-06.57.19:019][  0]LogRHI: Texture pool is 5680 MB (70% of 8115 MB)
-[2018.05.30-06.57.19:038][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.30-06.57.19:048][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.05.30-06.57.19:091][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/ll/myhighgrapicseffect/Landscape/Intermediate/Shaders/WorkingDirectory/7268/).
-[2018.05.30-06.57.19:091][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/C221-16/AppData/Local/Temp/UnrealShaderWorkingDir/31EB05FA4DD9D701858060A5329FD420/'.
-[2018.05.30-06.57.19:092][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.30-06.57.19:782][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.30-06.57.19:824][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.30-06.57.19:866][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.30-06.57.19:908][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.30-06.57.19:951][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.30-06.57.19:994][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.30-06.57.20:037][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.30-06.57.20:080][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.30-06.57.20:117][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.30-06.57.20:159][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.30-06.57.20:199][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.30-06.57.20:241][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.30-06.57.20:282][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.30-06.57.20:324][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.30-06.57.20:408][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.30-06.57.20:408][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.30-06.57.20:449][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.30-06.57.20:483][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.30-06.57.20:562][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.30-06.57.20:583][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.30-06.57.20:623][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.30-06.57.20:665][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.30-06.57.20:706][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.30-06.57.20:748][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.30-06.57.20:748][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.30-06.57.21:143][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.30-06.57.21:193][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/C221-16/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.30-06.57.21:193][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/C221-16/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.30-06.57.21:193][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/ll/myhighgrapicseffect/Landscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.30-06.57.21:193][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.30-06.57.21:193][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/ll/myhighgrapicseffect/Landscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.30-06.57.21:193][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.30-06.57.21:205][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.30-06.57.21:218][  0]LogDerivedDataCache: Using Local data cache path C:/Users/C221-16/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.30-06.57.21:225][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.30-06.57.21:226][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.30-06.57.21:226][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.30-06.57.21:226][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.30-06.57.21:489][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.30-06.57.21:762][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.30-06.57.21:797][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.30-06.57.21:797][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.30-06.57.21:797][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.30-06.57.21:797][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.30-06.57.21:797][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.30-06.57.21:820][  0]LogNetVersion: Landscape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1265210191)
-[2018.05.30-06.57.21:960][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
-[2018.05.30-06.57.22:363][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.021566 seconds
-[2018.05.30-06.57.22:368][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.30-06.57.22:368][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.05.30-06.57.22:368][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.30-06.57.22:415][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.30-06.57.24:773][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.30-06.57.24:819][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.30-06.57.25:450][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.30-06.57.25:849][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.30-06.57.25:849][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.30-06.57.25:900][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.30-06.57.25:949][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.30-06.57.26:720][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.30-06.57.26:976][  0]LogOcInput: OculusInput pre-init called
-[2018.05.30-06.57.27:244][  0]LogEngine: Initializing Engine...
-[2018.05.30-06.57.27:245][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.30-06.57.27:423][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.30-06.57.27:423][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.30-06.57.27:537][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.30-06.57.27:545][  0]LogInit: XAudio2 using '스피커(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.30-06.57.27:694][  0]LogInit: FAudioDevice initialized.
-[2018.05.30-06.57.27:767][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/C221-16/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.30-06.57.27:772][  0]LogInit: Texture streaming: Enabled
-[2018.05.30-06.57.27:856][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.30-06.57.27:970][  0]LogInit: Transaction tracking system initialized
-[2018.05.30-06.57.28:236][  0]BlueprintLog: New page: 에디터 로드
-[2018.05.30-06.57.29:029][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.05.30-06.57.29:672][  0]LogConsoleResponse: Display: 
-[2018.05.30-06.57.29:835][  0]LogFileCache: Scanning file cache for directory 'D:/ll/myhighgrapicseffect/Landscape/Content/' took 0.01s
-[2018.05.30-06.57.29:835][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.30-06.57.29:835][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.30-06.57.29:835][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.30-06.57.30:901][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.05.30-06.57.30:901][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.30-06.57.30:901][  0]LightingResults: New page: 라이팅 빌드
-[2018.05.30-06.57.30:937][  0]MapCheck: New page: 맵 체크
-[2018.05.30-06.57.30:937][  0]LightingResults: New page: 라이팅 빌드
-[2018.05.30-06.57.31:115][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.05.30-06.57.31:120][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.30-06.57.31:128][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.30-06.57.31:169][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 40.505ms.
-[2018.05.30-06.57.31:169][  0]LogFileHelpers: Loading map 'Template_Default' took 0.268
-[2018.05.30-06.57.31:283][  0]LogCollectionManager: Loaded 0 collections in 0.001629 seconds
-[2018.05.30-06.57.31:356][  0]LogFileCache: Scanning file cache for directory 'D:/ll/myhighgrapicseffect/Landscape/Saved/Collections/' took 0.01s
-[2018.05.30-06.57.31:356][  0]LogFileCache: Scanning file cache for directory 'D:/ll/myhighgrapicseffect/Landscape/Content/Developers/C22116/Collections/' took 0.01s
-[2018.05.30-06.57.31:356][  0]LogFileCache: Scanning file cache for directory 'D:/ll/myhighgrapicseffect/Landscape/Content/Collections/' took 0.01s
-[2018.05.30-06.57.31:356][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.30-06.57.31:363][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2363 classes and 519 folders.
-[2018.05.30-06.57.31:418][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.30-06.57.31:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.30-06.57.31:488][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.05.30-06.57.31:535][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.30-06.57.31:537][  0]LogSlate: Took 0.002086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.05.30-06.57.31:538][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.30-06.57.31:542][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.30-06.57.31:620][  0]LogRenderer: Reallocating scene render targets to support 1120x692 Format 10 NumSamples 1 (Frame:1).
-[2018.05.30-06.57.31:751][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.05.30-06.57.31:751][  0]LogLoad: (Engine Initialization) Total time: 15.28 seconds
-[2018.05.30-06.57.31:751][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.30-06.57.31:751][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.05.30-06.57.31:751][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.05.30-06.57.31:764][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.05.30-06.57.31:781][  0]LogAssetRegistry: Asset discovery search completed in 9.8431 seconds
-[2018.05.30-06.57.31:782][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.30-06.57.31:782][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
-[2018.05.30-06.57.31:785][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.30-07.02.19:144][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.30-07.02.19:144][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.30-07.02.19:162][  0]LogInit: Computer: DESKTOP-0TQE0N7
+[2018.05.30-07.02.19:162][  0]LogInit: User: C22116
+[2018.05.30-07.02.19:163][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.30-07.02.19:163][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2018.05.30-07.02.19:163][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.30-07.02.19:163][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.30-07.02.19:163][  0]LogMemory: Process Physical Memory: 272.88 MB used, 272.88 MB peak
+[2018.05.30-07.02.19:163][  0]LogMemory: Process Virtual Memory: 269.79 MB used, 269.79 MB peak
+[2018.05.30-07.02.19:163][  0]LogMemory: Physical Memory: 4160.55 MB used,  12102.66 MB free, 16263.21 MB total
+[2018.05.30-07.02.19:163][  0]LogMemory: Virtual Memory: 4778.66 MB used,  12102.66 MB free, 134217728.00 MB total
+[2018.05.30-07.02.19:283][  0]LogInit: Overriding language with editor language configuration option (ko).
+[2018.05.30-07.02.19:283][  0]LogInit: Overriding locale with editor locale configuration option (ko).
+[2018.05.30-07.02.19:416][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.30-07.02.19:602][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.30-07.02.19:641][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.05.30-07.02.19:641][  0]LogD3D11RHI:       8115/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.30-07.02.19:649][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.05.30-07.02.19:649][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.30-07.02.19:650][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.30-07.02.19:650][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.30-07.02.19:650][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.30-07.02.19:654][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.30-07.02.19:654][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.30-07.02.19:654][  0]LogWindows: EnumDisplayDevices:
+[2018.05.30-07.02.19:654][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.05.30-07.02.19:655][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.05.30-07.02.19:655][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.05.30-07.02.19:655][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.05.30-07.02.19:655][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.30-07.02.19:655][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.30-07.02.19:655][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.30-07.02.19:655][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.30-07.02.19:655][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.05.30-07.02.19:655][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.30-07.02.19:655][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.30-07.02.19:655][  0]LogRHI: Texture pool is 5680 MB (70% of 8115 MB)
+[2018.05.30-07.02.19:673][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.30-07.02.19:683][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.30-07.02.19:726][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (D:/ll/myhighgrapicseffect/Landscape/Intermediate/Shaders/WorkingDirectory/9672/).
+[2018.05.30-07.02.19:726][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/C221-16/AppData/Local/Temp/UnrealShaderWorkingDir/737D5C33442F2A9BF8705FAFC5158060/'.
+[2018.05.30-07.02.19:726][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.30-07.02.20:403][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.30-07.02.20:445][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.30-07.02.20:487][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.30-07.02.20:529][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.30-07.02.20:571][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.30-07.02.20:614][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.30-07.02.20:657][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.30-07.02.20:700][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.30-07.02.20:738][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.30-07.02.20:780][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.30-07.02.20:821][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.30-07.02.20:863][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.30-07.02.20:903][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.30-07.02.20:946][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.30-07.02.21:028][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.30-07.02.21:028][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.30-07.02.21:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.30-07.02.21:102][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.30-07.02.21:180][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.30-07.02.21:201][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.30-07.02.21:242][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.30-07.02.21:283][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.30-07.02.21:323][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.30-07.02.21:365][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.30-07.02.21:365][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.30-07.02.21:759][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.30-07.02.21:811][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/C221-16/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.30-07.02.21:811][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/C221-16/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.30-07.02.21:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/ll/myhighgrapicseffect/Landscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.30-07.02.21:811][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.30-07.02.21:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/ll/myhighgrapicseffect/Landscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.30-07.02.21:811][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.30-07.02.21:823][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.30-07.02.21:835][  0]LogDerivedDataCache: Using Local data cache path C:/Users/C221-16/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.30-07.02.21:843][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.30-07.02.21:843][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.30-07.02.21:843][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.30-07.02.21:843][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.30-07.02.22:109][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.30-07.02.22:378][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.30-07.02.22:412][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.30-07.02.22:412][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.30-07.02.22:412][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.30-07.02.22:412][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.30-07.02.22:412][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.30-07.02.22:435][  0]LogNetVersion: Landscape , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1265210191)
+[2018.05.30-07.02.22:573][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2018.05.30-07.02.22:948][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.021867 seconds
+[2018.05.30-07.02.22:953][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.30-07.02.22:953][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.05.30-07.02.22:953][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.30-07.02.23:004][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.30-07.02.25:194][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.30-07.02.25:232][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.30-07.02.25:811][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.30-07.02.26:174][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.30-07.02.26:174][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.30-07.02.26:220][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.30-07.02.26:265][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.30-07.02.26:963][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.30-07.02.27:193][  0]LogOcInput: OculusInput pre-init called
+[2018.05.30-07.02.27:440][  0]LogEngine: Initializing Engine...
+[2018.05.30-07.02.27:442][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.30-07.02.27:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.30-07.02.27:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.30-07.02.27:712][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.30-07.02.27:719][  0]LogInit: XAudio2 using '스피커(Conexant HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.30-07.02.27:869][  0]LogInit: FAudioDevice initialized.
+[2018.05.30-07.02.27:948][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/C221-16/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.30-07.02.27:960][  0]LogInit: Texture streaming: Enabled
+[2018.05.30-07.02.28:042][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.30-07.02.28:152][  0]LogInit: Transaction tracking system initialized
+[2018.05.30-07.02.28:412][  0]BlueprintLog: New page: 에디터 로드
+[2018.05.30-07.02.29:142][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.05.30-07.02.29:795][  0]LogConsoleResponse: Display: 
+[2018.05.30-07.02.29:950][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.30-07.02.29:950][  0]LogFileCache: Scanning file cache for directory 'D:/ll/myhighgrapicseffect/Landscape/Content/' took 0.01s
+[2018.05.30-07.02.29:950][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.30-07.02.29:950][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.30-07.02.31:014][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.05.30-07.02.31:014][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.30-07.02.31:014][  0]LightingResults: New page: 라이팅 빌드
+[2018.05.30-07.02.31:048][  0]MapCheck: New page: 맵 체크
+[2018.05.30-07.02.31:049][  0]LightingResults: New page: 라이팅 빌드
+[2018.05.30-07.02.31:222][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.05.30-07.02.31:227][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.30-07.02.31:236][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.30-07.02.31:276][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 40.34ms.
+[2018.05.30-07.02.31:276][  0]LogFileHelpers: Loading map 'Template_Default' took 0.263
+[2018.05.30-07.02.31:399][  0]LogCollectionManager: Loaded 0 collections in 0.001362 seconds
+[2018.05.30-07.02.31:469][  0]LogFileCache: Scanning file cache for directory 'D:/ll/myhighgrapicseffect/Landscape/Saved/Collections/' took 0.01s
+[2018.05.30-07.02.31:469][  0]LogFileCache: Scanning file cache for directory 'D:/ll/myhighgrapicseffect/Landscape/Content/Developers/C22116/Collections/' took 0.01s
+[2018.05.30-07.02.31:469][  0]LogFileCache: Scanning file cache for directory 'D:/ll/myhighgrapicseffect/Landscape/Content/Collections/' took 0.01s
+[2018.05.30-07.02.31:469][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.30-07.02.31:476][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2363 classes and 519 folders.
+[2018.05.30-07.02.31:531][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.30-07.02.31:564][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.30-07.02.31:610][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.30-07.02.31:656][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.30-07.02.31:659][  0]LogSlate: Took 0.002518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.05.30-07.02.31:660][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.30-07.02.31:663][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.30-07.02.31:741][  0]LogRenderer: Reallocating scene render targets to support 1120x692 Format 10 NumSamples 1 (Frame:1).
+[2018.05.30-07.02.31:871][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.30-07.02.31:871][  0]LogLoad: (Engine Initialization) Total time: 14.78 seconds
+[2018.05.30-07.02.31:871][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.30-07.02.31:871][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.05.30-07.02.31:871][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.05.30-07.02.31:883][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.05.30-07.02.31:899][  0]LogAssetRegistry: Asset discovery search completed in 9.3480 seconds
+[2018.05.30-07.02.31:900][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.30-07.02.31:900][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2018.05.30-07.02.31:902][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.30-07.02.34:830][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.30-07.02.35:531][414]Cmd: DELETE
+[2018.05.30-07.02.35:531][414]Cmd: ACTOR DELETE
+[2018.05.30-07.02.35:532][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.30-07.02.35:539][414]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.05.30-07.02.36:746][546]LogTexture: Display: 텍스처 빌드: Texture2D_2 (G8, 128X128)
+[2018.05.30-07.03.57:828][269]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.30-07.09.49:226][640]LogSlate: Took 0.019009 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2018.05.30-07.09.51:030][851]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.028658 seconds
+[2018.05.30-07.09.51:477][852]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.30-07.09.51:499][852]LogSlate: Took 0.021302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.05.30-07.09.51:501][852]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.30-07.09.51:505][852]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.30-07.12.23:489][845]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.30-07.12.32:478][872]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.30-07.12.32:506][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.05.30-07.12.32:552][872]LogSavePackage: Save=46.68ms
+[2018.05.30-07.12.32:552][872]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/Untitled_1_Auto1454B303640661FAA5348A186B60586D9.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.05.30-07.12.32:553][872]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2018.05.30-07.12.32:556][872]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.058
+[2018.05.30-07.12.32:556][872]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.058
+[2018.05.30-07.20.09:219][ 78]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
+[2018.05.30-07.20.18:382][168]Cmd: TRANSACTION UNDO
+[2018.05.30-07.20.18:382][168]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.20.27:091][206]Cmd: TRANSACTION UNDO
+[2018.05.30-07.20.27:091][206]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2018.05.30-07.20.35:015][152]MapCheck: New page: Map Check
+[2018.05.30-07.20.35:033][152]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.30-07.20.35:033][152]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.30-07.20.35:094][152]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.30-07.20.35:100][152]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.05.30-07.20.35:105][152]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.05.30-07.20.35:540][152]TextureStreamingBuild: Display: Compiling optional shaders took 0.450 seconds.
+[2018.05.30-07.20.35:568][152]LogLevel: Display: Export Material TexCoord Scales took 0.028 seconds.
+[2018.05.30-07.20.35:575][152]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.05.30-07.20.35:583][152]LightingResults: New page: Lighting Build - May 31, 2018, 1:20:35 AM
+[2018.05.30-07.20.35:624][152]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.30-07.20.35:688][152]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.30-07.20.35:701][152]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.30-07.20.36:220][152]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.30-07.20.36:220][152]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9672
+[2018.05.30-07.20.38:850][152]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.05.30-07.20.38:850][152]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.30-07.20.38:850][152]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.30-07.20.38:850][152]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.30-07.20.38:850][152]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.30-07.20.38:850][152]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.30-07.20.39:007][152]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.30-07.20.39:007][152]MapCheck: New page: Untitled_1 - May 31, 2018, 1:20:39 AM
+[2018.05.30-07.20.39:007][152]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.30-07.20.39:052][152]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 44.536ms to complete.
+[2018.05.30-07.20.39:075][152]LogEditorBuildUtils: Build time 0:04
+[2018.05.30-07.20.39:155][153]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2018.05.30-07.20.39:164][153]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2018.05.30-07.20.46:794][776]Job is a success!
+[2018.05.30-07.20.46:927][777]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.096s
+[2018.05.30-07.20.46:927][777]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.05.30-07.20.46:927][777]LogVolumetricLightmapImport:      BrickData 1280x15x5 = 2.7Mb
+[2018.05.30-07.20.46:927][777]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.30-07.20.46:927][777]LogVolumetricLightmapImport:          0: 1.1% covering 100.0% of volume
+[2018.05.30-07.20.46:927][777]LogVolumetricLightmapImport:          1: 6.7% covering 9.6% of volume
+[2018.05.30-07.20.46:927][777]LogVolumetricLightmapImport:          2: 92.2% covering 2.1% of volume
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 64X64)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 64X64)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 256X64)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X64)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 256X64)
+[2018.05.30-07.20.47:091][777]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2018.05.30-07.20.47:121][777]Lightmass on DESKTOP-0TQE0N7: 6.73 sec total, 142 ms importing, 77 ms setup, 1.07 sec photons, 5.41 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 37.7 sec total, 6.28 sec processing.
+[2018.05.30-07.20.47:138][777]LogStaticLightingSystem: Illumination: 11.5 sec (111 ms encoding lightmaps, 32 ms encoding shadowmaps)
+[2018.05.30-07.20.47:138][777]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 14 textures
+[2018.05.30-07.20.47:138][777]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 7 textures
+[2018.05.30-07.20.47:858][777]DumpUnbuiltLightIteractions
+[2018.05.30-07.20.47:858][777]Lights with unbuilt interactions: 0
+[2018.05.30-07.20.47:858][777]
+[2018.05.30-07.20.47:858][777]Primitives with unbuilt interactions: 0
+[2018.05.30-07.20.47:921][778]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.30-07.20.47:921][778]MapCheck: New page: Untitled_1 - May 31, 2018, 1:20:47 AM
+[2018.05.30-07.20.47:964][778]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.745ms to complete.
+[2018.05.30-07.23.08:757][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.05.30-07.23.08:903][637]LogSavePackage: Save=145.39ms
+[2018.05.30-07.23.08:903][637]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/Untitled_1_Auto267BB78384ED3A75DCA9272AE72FD585C.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2018.05.30-07.23.08:903][637]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2018.05.30-07.23.08:905][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.155
+[2018.05.30-07.23.08:905][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
+[2018.05.30-07.25.40:942][848]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
+[2018.05.30-07.25.40:949][848]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.05.30-07.25.41:466][906]LogEditorActor: Deleted Actor: Landscape
+[2018.05.30-07.25.41:477][906]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.30-07.25.43:501][149]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2018.05.30-07.25.45:981][441]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.25.51:099][ 49]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2018.05.30-07.27.51:251][286]MapCheck: New page: Map Check
+[2018.05.30-07.27.51:262][286]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.30-07.27.51:262][286]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.30-07.27.51:339][286]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.30-07.27.51:344][286]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2018.05.30-07.27.51:349][286]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.05.30-07.27.51:744][286]TextureStreamingBuild: Display: Compiling optional shaders took 0.407 seconds.
+[2018.05.30-07.27.51:748][286]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
+[2018.05.30-07.27.51:757][286]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
+[2018.05.30-07.27.51:771][286]LightingResults: New page: Lighting Build - May 31, 2018, 1:27:51 AM
+[2018.05.30-07.27.51:784][286]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.30-07.27.51:787][286]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.30-07.27.51:787][286]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.30-07.27.51:788][286]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.30-07.27.51:788][286]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9672
+[2018.05.30-07.27.56:318][286]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.05.30-07.27.56:318][286]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.30-07.27.56:318][286]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.30-07.27.56:318][286]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.30-07.27.56:318][286]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.30-07.27.56:318][286]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.30-07.27.56:503][286]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.30-07.27.56:503][286]MapCheck: New page: Untitled_1 - May 31, 2018, 1:27:56 AM
+[2018.05.30-07.27.56:504][286]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.30-07.27.56:547][286]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 43.467ms to complete.
+[2018.05.30-07.27.56:571][286]LogEditorBuildUtils: Build time 0:05
+[2018.05.30-07.28.03:886][897]Job is a success!
+[2018.05.30-07.28.04:015][898]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.093s
+[2018.05.30-07.28.04:015][898]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.05.30-07.28.04:015][898]LogVolumetricLightmapImport:      BrickData 1280x15x5 = 2.7Mb
+[2018.05.30-07.28.04:015][898]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.30-07.28.04:015][898]LogVolumetricLightmapImport:          0: 1.1% covering 100.0% of volume
+[2018.05.30-07.28.04:015][898]LogVolumetricLightmapImport:          1: 6.7% covering 9.6% of volume
+[2018.05.30-07.28.04:015][898]LogVolumetricLightmapImport:          2: 92.2% covering 2.1% of volume
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 128X128)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 128X128)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 64X64)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 64X64)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64)
+[2018.05.30-07.28.04:168][898]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 64X64)
+[2018.05.30-07.28.04:169][898]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 32X32)
+[2018.05.30-07.28.04:169][898]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64)
+[2018.05.30-07.28.04:183][898]Lightmass on DESKTOP-0TQE0N7: 6.60 sec total, 122 ms importing, 83 ms setup, 1.07 sec photons, 5.30 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 36.9 sec total, 6.17 sec processing.
+[2018.05.30-07.28.04:203][898]LogStaticLightingSystem: Illumination: 12.4 sec (105 ms encoding lightmaps, 34 ms encoding shadowmaps)
+[2018.05.30-07.28.04:203][898]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 14 textures
+[2018.05.30-07.28.04:204][898]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 7 textures
+[2018.05.30-07.28.04:324][898]DumpUnbuiltLightIteractions
+[2018.05.30-07.28.04:324][898]Lights with unbuilt interactions: 0
+[2018.05.30-07.28.04:324][898]
+[2018.05.30-07.28.04:324][898]Primitives with unbuilt interactions: 0
+[2018.05.30-07.28.04:404][899]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.30-07.28.04:404][899]MapCheck: New page: Untitled_1 - May 31, 2018, 1:28:04 AM
+[2018.05.30-07.28.04:462][899]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.663ms to complete.
+[2018.05.30-07.28.22:066][  9]Cmd: TRANSACTION UNDO
+[2018.05.30-07.28.22:066][  9]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.28.27:407][646]Cmd: TRANSACTION UNDO
+[2018.05.30-07.28.27:407][646]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.28.38:130][929]Cmd: TRANSACTION UNDO
+[2018.05.30-07.28.38:130][929]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.28.48:954][223]Cmd: TRANSACTION UNDO
+[2018.05.30-07.28.48:954][223]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.07:993][498]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.07:993][498]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.12:533][ 27]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2018.05.30-07.29.16:472][481]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.16:472][481]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.29:074][979]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.29:074][979]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.40:239][296]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.40:239][296]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.40:251][296]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.29.40:935][364]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.40:935][364]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.50:939][523]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.50:939][523]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.50:945][523]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.29.51:179][548]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.51:180][548]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.51:191][548]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.29.51:425][573]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.51:425][573]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.51:437][573]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.29.51:689][600]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.51:689][600]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.29.51:694][600]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.29.52:017][636]Cmd: TRANSACTION UNDO
+[2018.05.30-07.29.52:017][636]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.30.20:187][ 12]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.20:187][ 12]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.30.20:192][ 12]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.30.20:704][ 70]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.20:704][ 70]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.30.30:308][200]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.30:308][200]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.30.30:322][200]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.30.30:603][229]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.30:603][229]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.30.30:613][229]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.30.30:830][251]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.30:830][251]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.30.31:086][279]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.31:086][279]LogEditorTransaction: Undo Edit Brush Size
+[2018.05.30-07.30.54:753][993]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.54:754][993]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.05.30-07.30.54:767][993]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.30.55:067][ 22]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.55:067][ 22]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.05.30-07.30.55:077][ 22]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.30.56:174][148]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.56:174][148]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2018.05.30-07.30.56:179][148]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.30.56:408][171]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.56:408][171]LogEditorTransaction: Undo Landscape Editing: Smooth
+[2018.05.30-07.30.56:730][206]Cmd: TRANSACTION UNDO
+[2018.05.30-07.30.56:730][206]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.05.30-07.31.13:871][259]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.13:871][259]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.13:875][259]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.31.14:481][328]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.14:481][328]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.17:756][718]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.17:756][718]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.21:515][165]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.21:515][165]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.38:560][192]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.38:560][192]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.38:568][192]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.31.39:964][356]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.39:964][356]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.39:975][356]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.31.40:214][382]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.40:214][382]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.44:399][881]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.44:399][881]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.44:406][881]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.31.44:835][928]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.44:835][928]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.44:839][928]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.31.45:150][961]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.45:150][961]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.47:733][268]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.47:733][268]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.47:745][268]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.31.48:227][322]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.48:227][322]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.52:013][773]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.52:013][773]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.52:017][773]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.31.52:612][841]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.52:612][841]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.31.55:720][210]Cmd: TRANSACTION UNDO
+[2018.05.30-07.31.55:720][210]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.32.01:789][933]Cmd: TRANSACTION UNDO
+[2018.05.30-07.32.01:789][933]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.32.08:528][737]Cmd: TRANSACTION UNDO
+[2018.05.30-07.32.08:528][737]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.32.25:696][790]Cmd: TRANSACTION UNDO
+[2018.05.30-07.32.25:696][790]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.32.43:872][954]Cmd: TRANSACTION UNDO
+[2018.05.30-07.32.43:872][954]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.33.01:300][ 37]Cmd: TRANSACTION UNDO
+[2018.05.30-07.33.01:300][ 37]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.35.05:602][801]Cmd: TRANSACTION UNDO
+[2018.05.30-07.35.05:602][801]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.05.30-07.35.05:607][801]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.35.08:571][152]Cmd: TRANSACTION UNDO
+[2018.05.30-07.35.08:571][152]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.05.30-07.35.14:150][817]Cmd: TRANSACTION UNDO
+[2018.05.30-07.35.14:150][817]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.05.30-07.35.14:154][817]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.35.16:140][ 51]Cmd: TRANSACTION UNDO
+[2018.05.30-07.35.16:140][ 51]LogEditorTransaction: Undo Landscape Editing: Erosion
+[2018.05.30-07.35.17:106][164]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2018.05.30-07.35.17:402][192]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2018.05.30-07.35.22:813][826]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2018.05.30-07.36.22:865][ 27]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.05.30-07.36.22:869][ 27]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2018.05.30-07.36.22:872][ 27]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2018.05.30-07.36.22:875][ 27]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2018.05.30-07.36.24:067][131]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2018.05.30-07.36.24:070][131]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2018.05.30-07.36.38:321][788]Cmd: TRANSACTION UNDO
+[2018.05.30-07.36.38:321][788]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.36.38:440][788]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2018.05.30-07.36.38:442][788]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2018.05.30-07.36.38:444][788]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.05.30-07.36.38:446][788]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2018.05.30-07.36.38:451][788]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 256X256)
+[2018.05.30-07.36.38:487][788]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2018.05.30-07.36.38:518][788]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2018.05.30-07.37.01:035][426]LogEditorActor: Deleted Actor: Landscape
+[2018.05.30-07.37.01:061][426]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.05.30-07.37.03:676][737]LogTexture: Display: Building textures: Texture2D_4 (G8, 128X128)
+[2018.05.30-07.37.05:082][902]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 256X256)
+[2018.05.30-07.37.33:400][282]Cmd: TRANSACTION UNDO
+[2018.05.30-07.37.33:400][282]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.37.33:404][282]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 256X256)
+[2018.05.30-07.37.34:009][350]Cmd: TRANSACTION UNDO
+[2018.05.30-07.37.34:009][350]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.02:383][751]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.02:383][751]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.02:390][751]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 256X256)
+[2018.05.30-07.38.02:702][785]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.02:702][785]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.02:921][806]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.02:921][806]LogEditorTransaction: Undo Creating New Landscape
+[2018.05.30-07.38.04:345][972]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 256X256)
+[2018.05.30-07.38.15:121][204]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.15:121][204]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.18:607][602]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.18:607][602]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.18:623][602]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 256X256)
+[2018.05.30-07.38.19:137][658]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.19:137][658]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.24:995][332]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.24:995][332]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.25:004][332]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 256X256)
+[2018.05.30-07.38.25:384][374]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.25:384][374]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.25:392][374]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 256X256)
+[2018.05.30-07.38.25:736][411]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.25:736][411]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.25:744][411]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 256X256)
+[2018.05.30-07.38.26:694][522]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.26:694][522]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.29:532][837]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.29:532][837]LogEditorTransaction: Undo Landscape Editing: Noise
+[2018.05.30-07.38.50:136][183]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.50:136][183]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.38.50:150][183]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 256X256)
+[2018.05.30-07.38.53:587][533]Cmd: TRANSACTION UNDO
+[2018.05.30-07.38.53:587][533]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.39.00:357][181]Cmd: TRANSACTION UNDO
+[2018.05.30-07.39.00:357][181]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.05.30-07.39.50:768][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.05.30-07.39.50:841][205]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 256X256)
+[2018.05.30-07.39.50:914][205]LogSavePackage: Save=147.06ms
+[2018.05.30-07.39.50:914][205]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/Untitled_1_Auto346ED4DF34D555CBA46874498AC8EB961.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2018.05.30-07.39.50:915][205]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2018.05.30-07.39.50:917][205]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.158
+[2018.05.30-07.39.50:917][205]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158
+[2018.05.30-07.49.50:769][181]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.007
+[2018.05.30-07.53.34:573][ 27]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.30-07.53.42:941][ 23]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.05.30-07.53.42:945][ 23]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.53.43:316][ 23]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.53.43:368][ 23]LogSlate: Took 0.006963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.30-07.53.44:525][132]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.30-07.53.44:525][132]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.30-07.53.44:525][132]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.53.44:525][132]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.54.35:094][160]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.54.35:110][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.30-07.54.36:193][288]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.30-07.54.36:193][288]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.30-07.54.36:193][288]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.54.36:193][288]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.54.41:015][861]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.54.41:038][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.30-07.54.41:879][959]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.30-07.54.41:879][959]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.30-07.54.41:879][959]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.54.41:879][959]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.54.51:402][100]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.54.51:420][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.30-07.54.52:241][195]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.54.52:241][195]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.54.52:241][195]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.54.52:241][195]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.54.52:703][250]LogMaterialEditor: Applying material LandScapeMat
+[2018.05.30-07.54.53:059][250]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.54.53:102][250]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.54.53:130][250]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.54.53:169][250]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandScapeMat, compiling. 
+[2018.05.30-07.54.53:791][250]TextureStreamingBuild: Display: Compiling optional shaders took 0.627 seconds.
+[2018.05.30-07.54.55:456][445]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.54.55:456][445]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.54.55:456][445]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.54.55:456][445]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.30-07.55.06:193][727]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.56.21:696][765]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.56.22:772][891]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.56.22:772][891]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.56.22:772][891]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.56.22:772][891]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.56.22:988][916]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.56.36:002][475]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.56.36:041][475]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.56.36:838][568]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.56.36:838][568]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.56.36:839][568]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.56.36:839][568]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.56.45:344][588]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.56.45:388][588]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.56.46:170][680]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.56.46:170][680]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.56.46:170][680]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.56.46:170][680]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.56.53:807][595]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.56.53:856][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.56.54:656][689]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.56.54:656][689]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.56.54:656][689]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.56.54:656][689]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.56.58:102][102]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.56.58:151][102]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.56.58:535][144]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.56.58:581][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.56.59:506][251]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.56.59:506][251]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.56.59:506][251]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.56.59:506][251]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.57.08:265][286]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.08:305][286]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.57.12:499][784]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.12:542][784]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.57.13:359][880]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.57.13:359][880]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.57.13:359][880]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.57.13:359][880]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.57.16:504][257]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.16:545][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.57.17:350][352]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.57.17:350][352]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.57.17:350][352]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.57.17:350][352]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.57.43:089][440]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.43:131][440]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.57.44:203][566]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.57.44:203][566]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.57.44:203][566]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.57.44:203][566]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.57.44:313][578]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.44:377][578]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.57.45:239][677]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.57.45:239][677]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.57.45:239][677]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.57.45:239][677]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.57.48:492][ 67]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.48:509][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2018.05.30-07.57.49:330][160]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.57.49:330][160]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.57.49:330][160]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.57.49:330][160]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.57.54:141][737]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.54:991][837]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.30-07.57.54:991][837]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.30-07.57.54:991][837]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.57.54:991][837]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.57.58:442][251]LogMaterialEditor: Applying material LandScapeMat
+[2018.05.30-07.57.58:787][251]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.58:835][251]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.58:871][251]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.58:896][251]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.57.58:971][251]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandScapeMat, compiling. 
+[2018.05.30-07.57.59:549][251]TextureStreamingBuild: Display: Compiling optional shaders took 0.589 seconds.
+[2018.05.30-07.58.01:709][498]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.01:723][498]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.01:739][498]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.01:754][498]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.01:793][499]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.30-07.58.01:793][499]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.30-07.58.01:793][499]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.58.01:793][499]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.30-07.58.25:321][279]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.25:335][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.30-07.58.25:802][331]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.25:826][331]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.05.30-07.58.26:819][447]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.30-07.58.26:819][447]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.30-07.58.26:819][447]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.58.26:819][447]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.58.29:262][737]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.29:282][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.30-07.58.29:383][745]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.29:404][745]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.30-07.58.30:266][844]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.30-07.58.30:266][844]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.30-07.58.30:266][844]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.58.30:266][844]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.58.32:051][ 56]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.32:077][ 56]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.05.30-07.58.32:172][ 64]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.32:199][ 64]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.05.30-07.58.33:033][158]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.05.30-07.58.33:033][158]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.05.30-07.58.33:033][158]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.58.33:033][158]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.58.49:506][132]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.49:524][132]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.05.30-07.58.50:963][301]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.50:991][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.05.30-07.58.52:722][505]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.52:746][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2018.05.30-07.58.53:580][602]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.58.53:580][602]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.58.53:580][602]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.58.53:581][602]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-07.58.55:097][784]LogMaterialEditor: Applying material LandScapeMat
+[2018.05.30-07.58.55:447][784]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.55:491][784]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.55:518][784]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.55:543][784]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.55:605][784]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.55:615][784]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.55:627][784]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.55:651][784]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandScapeMat, compiling. 
+[2018.05.30-07.58.56:203][784]TextureStreamingBuild: Display: Compiling optional shaders took 0.559 seconds.
+[2018.05.30-07.58.58:339][ 20]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-07.58.58:403][ 21]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-07.58.58:403][ 21]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-07.58.58:403][ 21]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-07.58.58:403][ 21]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.30-07.59.41:887][114]LogMaterialEditor: Saving and Compiling material LandScapeMat
+[2018.05.30-07.59.41:911][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LandScapeMat" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset" SILENT=true
+[2018.05.30-07.59.41:925][114]LogSavePackage: Save=12.04ms
+[2018.05.30-07.59.41:925][114]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/LandScapeMatE9BD257E4974D50C71027580382EF172.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset'
+[2018.05.30-07.59.41:926][114]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset
+[2018.05.30-07.59.47:608][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.30-07.59.47:755][443]LogSavePackage: Save=138.89ms
+[2018.05.30-07.59.47:756][443]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/1A61E09484154AD38553B4985F6FDC2E9.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/1.umap'
+[2018.05.30-07.59.47:759][443]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/1.umap
+[2018.05.30-07.59.47:786][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_BuiltData" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/1_BuiltData.uasset" SILENT=true
+[2018.05.30-07.59.47:825][443]LogSavePackage: Save=37.26ms
+[2018.05.30-07.59.47:825][443]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/1_BuiltData4112F6674B85ACA95B99F8847AD3FF5E.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/1_BuiltData.uasset'
+[2018.05.30-07.59.47:826][443]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/1_BuiltData.uasset
+[2018.05.30-07.59.47:829][443]LogFileHelpers: Saving map '1' took 0.288
+[2018.05.30-08.01.52:318][435]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2018.05.30-08.01.52:325][435]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.01.52:368][435]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2018.05.30-08.01.52:374][435]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2018.05.30-08.01.52:378][435]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 64X64)
+[2018.05.30-08.02.12:391][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.30-08.02.12:478][392]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2018.05.30-08.02.12:478][392]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2018.05.30-08.02.12:479][392]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2018.05.30-08.02.12:479][392]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 64X64)
+[2018.05.30-08.02.12:552][392]LogSavePackage: Save=146.89ms
+[2018.05.30-08.02.12:552][392]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/19A55CA2C4C7A5CDF43CC5DBD13C617D3.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/1.umap'
+[2018.05.30-08.02.12:553][392]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/1.umap
+[2018.05.30-08.02.12:577][392]LogFileHelpers: Saving map '1' took 0.229
+[2018.05.30-08.02.12:578][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_sharedassets/Blue_LayerInfo" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Blue_LayerInfo.uasset" SILENT=true
+[2018.05.30-08.02.12:585][392]LogSavePackage: Save=4.55ms
+[2018.05.30-08.02.12:585][392]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/Blue_LayerInfo507B124E40EEA4E5E92680861768F9D8.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Blue_LayerInfo.uasset'
+[2018.05.30-08.02.12:586][392]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Blue_LayerInfo.uasset
+[2018.05.30-08.02.12:589][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_sharedassets/Green_LayerInfo" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Green_LayerInfo.uasset" SILENT=true
+[2018.05.30-08.02.12:594][392]LogSavePackage: Save=3.42ms
+[2018.05.30-08.02.12:594][392]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/Green_LayerInfo4A706188490E565E714B6AA761F65DDA.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Green_LayerInfo.uasset'
+[2018.05.30-08.02.12:595][392]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Green_LayerInfo.uasset
+[2018.05.30-08.02.12:597][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_sharedassets/Red_LayerInfo" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Red_LayerInfo.uasset" SILENT=true
+[2018.05.30-08.02.12:604][392]LogSavePackage: Save=3.75ms
+[2018.05.30-08.02.12:604][392]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/Red_LayerInfo78D4B35C4D71533672283D996816F1A5.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Red_LayerInfo.uasset'
+[2018.05.30-08.02.12:605][392]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/1_sharedassets/Red_LayerInfo.uasset
+[2018.05.30-08.02.15:515][739]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2018.05.30-08.02.15:522][739]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.02.31:115][591]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2018.05.30-08.02.31:129][591]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.02.31:328][608]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.02.57:609][706]Cmd: TRANSACTION UNDO
+[2018.05.30-08.02.57:610][706]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.02.57:613][706]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2018.05.30-08.02.57:647][706]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.02.57:877][722]Cmd: TRANSACTION UNDO
+[2018.05.30-08.02.57:877][722]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.02.57:880][722]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2018.05.30-08.02.57:885][722]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2018.05.30-08.02.57:964][722]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.02.58:093][727]Cmd: TRANSACTION UNDO
+[2018.05.30-08.02.58:093][727]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.02.58:103][727]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2018.05.30-08.02.58:105][727]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2018.05.30-08.02.58:111][727]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2018.05.30-08.02.58:195][727]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.02.58:280][731]Cmd: TRANSACTION UNDO
+[2018.05.30-08.02.58:280][731]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.02.58:283][731]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2018.05.30-08.02.58:291][731]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2018.05.30-08.02.58:377][731]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.02.58:675][762]Cmd: TRANSACTION UNDO
+[2018.05.30-08.02.58:676][762]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.02.58:679][762]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2018.05.30-08.02.58:774][762]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.02.58:941][777]Cmd: TRANSACTION UNDO
+[2018.05.30-08.02.58:941][777]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.02.58:945][777]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2018.05.30-08.02.59:033][777]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.03.00:050][890]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-08.03.00:050][890]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-08.03.00:050][890]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-08.03.00:050][890]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-08.03.02:301][159]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
+[2018.05.30-08.03.05:669][563]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 64X64)
+[2018.05.30-08.03.12:023][323]Cmd: TRANSACTION UNDO
+[2018.05.30-08.03.12:023][323]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.03.12:034][323]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 64X64)
+[2018.05.30-08.03.12:038][323]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2018.05.30-08.03.12:066][323]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.03.12:392][344]Cmd: TRANSACTION UNDO
+[2018.05.30-08.03.12:392][344]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.03.12:409][344]LogActorComponent: ~FComponentReregisterContext: (/Game/1.1:PersistentLevel.Landscape_3.LandscapeComponent_53) Component already registered.
+[2018.05.30-08.03.12:409][344]LogActorComponent: ~FComponentReregisterContext: (/Game/1.1:PersistentLevel.Landscape_3.LandscapeHeightfieldCollisionComponent_113) Component already registered.
+[2018.05.30-08.03.12:410][344]LogActorComponent: ~FComponentReregisterContext: (/Game/1.1:PersistentLevel.Landscape_3.LandscapeComponent_49) Component already registered.
+[2018.05.30-08.03.12:410][344]LogActorComponent: ~FComponentReregisterContext: (/Game/1.1:PersistentLevel.Landscape_3.LandscapeHeightfieldCollisionComponent_114) Component already registered.
+[2018.05.30-08.03.12:502][344]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.03.12:621][351]Cmd: TRANSACTION UNDO
+[2018.05.30-08.03.12:621][351]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.03.12:664][351]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.03.13:465][442]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2018.05.30-08.03.13:558][453]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-08.03.13:558][453]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-08.03.13:558][453]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-08.03.13:558][453]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-08.04.07:683][941]Cmd: TRANSACTION UNDO
+[2018.05.30-08.04.07:683][941]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.04.07:688][941]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2018.05.30-08.04.07:692][941]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2018.05.30-08.04.07:726][941]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.08:126][981]Cmd: TRANSACTION UNDO
+[2018.05.30-08.04.08:126][981]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.04.08:129][981]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2018.05.30-08.04.08:149][981]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2018.05.30-08.04.08:237][981]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.08:343][987]Cmd: TRANSACTION UNDO
+[2018.05.30-08.04.08:343][987]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.04.08:347][987]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2018.05.30-08.04.08:400][987]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.09:305][ 90]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-08.04.09:305][ 90]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-08.04.09:305][ 90]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-08.04.09:305][ 90]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-08.04.10:691][256]Cmd: TRANSACTION UNDO
+[2018.05.30-08.04.10:691][256]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.05.30-08.04.10:698][256]LogActorComponent: ~FComponentReregisterContext: (/Game/1.1:PersistentLevel.Landscape_3.LandscapeHeightfieldCollisionComponent_118) Component already registered.
+[2018.05.30-08.04.10:762][256]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.11:640][356]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-08.04.11:640][356]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-08.04.11:640][356]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-08.04.11:640][356]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.30-08.04.16:659][955]MapCheck: New page: Map Check
+[2018.05.30-08.04.16:669][955]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.30-08.04.16:669][955]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.30-08.04.16:779][955]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.30-08.04.16:784][955]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2018.05.30-08.04.16:792][955]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.05.30-08.04.16:963][955]TextureStreamingBuild: Display: Compiling optional shaders took 0.206 seconds.
+[2018.05.30-08.04.16:965][955]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2018.05.30-08.04.16:968][955]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2018.05.30-08.04.16:974][955]LightingResults: New page: Lighting Build - May 31, 2018, 2:04:16 AM
+[2018.05.30-08.04.16:981][955]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.30-08.04.16:983][955]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.30-08.04.16:983][955]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.30-08.04.16:983][955]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.30-08.04.16:983][955]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9672
+[2018.05.30-08.04.21:498][955]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.05.30-08.04.21:499][955]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.30-08.04.21:499][955]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.30-08.04.21:499][955]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.30-08.04.21:499][955]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.30-08.04.21:499][955]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.30-08.04.21:620][955]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.30-08.04.21:620][955]MapCheck: New page: 1 - May 31, 2018, 2:04:21 AM
+[2018.05.30-08.04.21:621][955]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.05.30-08.04.21:665][955]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 44.364ms to complete.
+[2018.05.30-08.04.21:687][955]LogEditorBuildUtils: Build time 0:05
+[2018.05.30-08.04.21:713][955]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_101, compiling. 
+[2018.05.30-08.04.21:725][955]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_101, compiling. 
+[2018.05.30-08.04.36:915][280]Job is a success!
+[2018.05.30-08.04.37:084][281]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.134s
+[2018.05.30-08.04.37:084][281]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2018.05.30-08.04.37:084][281]LogVolumetricLightmapImport:      BrickData 1280x30x5 = 5.3Mb
+[2018.05.30-08.04.37:084][281]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.30-08.04.37:084][281]LogVolumetricLightmapImport:          0: 0.6% covering 100.0% of volume
+[2018.05.30-08.04.37:084][281]LogVolumetricLightmapImport:          1: 7.1% covering 18.9% of volume
+[2018.05.30-08.04.37:084][281]LogVolumetricLightmapImport:          2: 92.3% covering 3.8% of volume
+[2018.05.30-08.04.37:095][281]LogMaterial: Warning: Material /Game/LandScapeMat.LandScapeMat needed to have new flag set bUsedWithStaticLighting !
+[2018.05.30-08.04.37:096][281]LogMaterial: Warning: Material /Engine/Transient.LandScapeMat needed to have new flag set bUsedWithStaticLighting !
+[2018.05.30-08.04.37:105][281]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.37:124][281]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.37:162][281]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.37:238][281]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.37:303][281]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.37:374][281]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.37:443][281]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.37:675][281]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 64X64)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 64X64)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 64X64)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 256X64)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 256X64)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 32X32)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 128X64)
+[2018.05.30-08.04.37:676][281]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 128X64)
+[2018.05.30-08.04.37:689][281]Lightmass on DESKTOP-0TQE0N7: 14.8 sec total, 128 ms importing, 83 ms setup, 1.36 sec photons, 13.2 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 1:32 min total, 7.05 sec processing.
+[2018.05.30-08.04.37:713][281]LogStaticLightingSystem: Illumination: 20.7 sec (123 ms encoding lightmaps, 26 ms encoding shadowmaps)
+[2018.05.30-08.04.37:713][281]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 14 textures
+[2018.05.30-08.04.37:713][281]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 7 textures
+[2018.05.30-08.04.38:507][281]DumpUnbuiltLightIteractions
+[2018.05.30-08.04.38:507][281]Lights with unbuilt interactions: 0
+[2018.05.30-08.04.38:507][281]
+[2018.05.30-08.04.38:507][281]Primitives with unbuilt interactions: 0
+[2018.05.30-08.04.38:520][282]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.30-08.04.38:520][282]MapCheck: New page: 1 - May 31, 2018, 2:04:38 AM
+[2018.05.30-08.04.38:583][282]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.917ms to complete.
+[2018.05.30-08.04.38:586][282]MaterialEditorStats: Base pass shader: 100 instructions
+[2018.05.30-08.04.38:586][282]MaterialEditorStats: Base pass shader with Surface Lightmap: 117 instructions
+[2018.05.30-08.04.38:586][282]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2018.05.30-08.04.38:586][282]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.05.30-08.04.38:586][282]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.30-08.04.40:268][462]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.40:280][462]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.40:297][462]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.40:313][462]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.04.52:715][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.30-08.04.52:909][777]LogSavePackage: Save=182.10ms
+[2018.05.30-08.04.52:909][777]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/15021DDE7404C8687702F0EA33A2EF329.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/1.umap'
+[2018.05.30-08.04.52:912][777]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/1.umap
+[2018.05.30-08.04.52:945][777]LogFileHelpers: Saving map '1' took 0.293
+[2018.05.30-08.04.52:948][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/1_BuiltData" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/1_BuiltData.uasset" SILENT=true
+[2018.05.30-08.04.53:023][777]LogSavePackage: Save=64.53ms
+[2018.05.30-08.04.53:023][777]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/1_BuiltData3AD7ABB54C1BE416118B2BAE02B5BDF2.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/1_BuiltData.uasset'
+[2018.05.30-08.04.53:025][777]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/1_BuiltData.uasset
+[2018.05.30-08.04.53:029][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LandScapeMat" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset" SILENT=true
+[2018.05.30-08.04.53:043][777]LogSavePackage: Save=7.80ms
+[2018.05.30-08.04.53:043][777]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/LandScapeMatF8A89E704DCF60A40BA20494E4BC9DF6.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset'
+[2018.05.30-08.04.53:045][777]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset
+[2018.05.30-08.05.02:050][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:098][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:141][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:186][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:266][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:327][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:396][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:461][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:475][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:486][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:498][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.02:580][685]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandScapeMat, compiling. 
+[2018.05.30-08.05.02:929][685]TextureStreamingBuild: Display: Compiling optional shaders took 0.354 seconds.
+[2018.05.30-08.05.04:722][685]LogMaterial: Missing cached shader map for material LandScapeMat, compiling. 
+[2018.05.30-08.05.04:781][685]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.30-08.05.04:814][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LandScapeMat" FILE="D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset" SILENT=true
+[2018.05.30-08.05.04:832][685]LogSavePackage: Save=15.89ms
+[2018.05.30-08.05.04:832][685]LogSavePackage: Moving 'D:/ll/myhighgrapicseffect/Landscape/Saved/LandScapeMat92FB0A91497A84F53982228C3971379B.tmp' to 'D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset'
+[2018.05.30-08.05.04:833][685]LogSavePackage: Display: Finished SavePackage D:/ll/myhighgrapicseffect/Landscape/Content/LandScapeMat.uasset
+[2018.05.30-08.05.05:249][686]Cmd: QUIT_EDITOR
+[2018.05.30-08.05.05:313][686]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.05.30-08.05.05:327][686]LogExit: Preparing to exit.
+[2018.05.30-08.05.06:138][686]LogExit: Editor shut down
+[2018.05.30-08.05.06:147][686]LogExit: Transaction tracking system shut down
+[2018.05.30-08.05.06:236][686]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.30-08.05.06:237][686]LogDirectoryWatcher: A directory notification for 'D:/ll/myhighgrapicseffect/Landscape/Content/' was aborted.
+[2018.05.30-08.05.06:237][686]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.30-08.05.06:237][686]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.05.30-08.05.06:237][686]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.05.30-08.05.06:237][686]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.30-08.05.06:237][686]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.30-08.05.06:282][686]LogExit: Object subsystem successfully closed.
+[2018.05.30-08.05.06:294][686]LogD3D11RHI: Shutdown
+[2018.05.30-08.05.06:294][686]LogD3D11RHI: CleanupD3DDevice
+[2018.05.30-08.05.06:297][686]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.30-08.05.06:312][686]LogModuleManager: Shutting down and abandoning module MaterialEditor (552)
+[2018.05.30-08.05.06:313][686]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.05.30-08.05.06:313][686]LogModuleManager: Shutting down and abandoning module SceneOutliner (548)
+[2018.05.30-08.05.06:313][686]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.05.30-08.05.06:313][686]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.05.30-08.05.06:313][686]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.05.30-08.05.06:313][686]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.05.30-08.05.06:313][686]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.05.30-08.05.06:313][686]LogDirectoryWatcher: A directory notification for 'D:/ll/myhighgrapicseffect/Landscape/Content/Collections/' was aborted.
+[2018.05.30-08.05.06:313][686]LogDirectoryWatcher: A directory notification for 'D:/ll/myhighgrapicseffect/Landscape/Content/Developers/C22116/Collections/' was aborted.
+[2018.05.30-08.05.06:313][686]LogDirectoryWatcher: A directory notification for 'D:/ll/myhighgrapicseffect/Landscape/Saved/Collections/' was aborted.
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.05.30-08.05.06:314][686]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.05.30-08.05.06:476][686]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.05.30-08.05.06:477][686]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.05.30-08.05.06:477][686]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.05.30-08.05.06:477][686]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.05.30-08.05.06:477][686]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.05.30-08.05.06:477][686]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.05.30-08.05.06:477][686]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.05.30-08.05.06:477][686]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.05.30-08.05.06:518][686]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.05.30-08.05.06:519][686]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.05.30-08.05.06:698][686]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.05.30-08.05.06:699][686]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.05.30-08.05.06:700][686]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.05.30-08.05.06:700][686]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.05.30-08.05.06:700][686]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.05.30-08.05.06:700][686]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.05.30-08.05.06:700][686]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.05.30-08.05.06:700][686]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.05.30-08.05.06:700][686]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.05.30-08.05.06:700][686]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.05.30-08.05.06:802][686]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.05.30-08.05.06:902][686]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.05.30-08.05.06:902][686]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.05.30-08.05.06:902][686]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.05.30-08.05.06:902][686]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.05.30-08.05.06:902][686]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.05.30-08.05.06:902][686]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.05.30-08.05.06:903][686]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.05.30-08.05.06:903][686]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.05.30-08.05.06:903][686]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.05.30-08.05.06:903][686]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.05.30-08.05.06:904][686]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.05.30-08.05.06:904][686]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.05.30-08.05.06:904][686]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.05.30-08.05.06:904][686]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.05.30-08.05.06:904][686]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.05.30-08.05.06:904][686]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.05.30-08.05.06:910][686]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.05.30-08.05.06:911][686]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.05.30-08.05.06:911][686]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.05.30-08.05.06:911][686]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.05.30-08.05.06:911][686]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.05.30-08.05.06:911][686]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.05.30-08.05.06:911][686]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.05.30-08.05.06:912][686]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.05.30-08.05.06:913][686]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.05.30-08.05.06:913][686]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.05.30-08.05.06:913][686]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.05.30-08.05.06:913][686]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.05.30-08.05.06:913][686]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.05.30-08.05.06:913][686]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.05.30-08.05.06:913][686]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.05.30-08.05.06:914][686]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.05.30-08.05.06:944][686]LogDerivedDataCache: Shutdown
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.05.30-08.05.06:944][686]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.30-08.05.06:945][686]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.30-08.05.06:945][686]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.30-08.05.06:945][686]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B18CD1186-4099-45FC-985B-5DB4245A339C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=d1c928644d1bef121ae16b888612ba6c%7Ce5e372cf1ba044888b4a61c39355e268%7C261f9f2f-0372-41d8-8d85-069c73c70373&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.30-08.05.06:956][686]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.30-08.05.06:957][686]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.30-08.05.06:957][686]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.30-08.05.06:958][686]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.30-08.05.06:958][686]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.30-08.05.06:958][686]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.30-08.05.06:958][686]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.30-08.05.06:958][686]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.30-08.05.06:959][686]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.30-08.05.06:962][686]LogExit: Exiting.
+[2018.05.30-08.05.06:975][686]Log file closed, 05/30/18 17:05:06
